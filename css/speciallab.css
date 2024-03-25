@@ -802,7 +802,7 @@ p {
 /*-------------footer--------*/
 
 
-.footer {
+/* .footer {
   width: 80%;
   text-align: center;
   padding: 30px;
@@ -830,7 +830,7 @@ p {
   margin-bottom: 25px;
   margin-top: 20px;
   font-weight: 600;
-}
+} */
 
 .main {
   width: auto;
@@ -1552,7 +1552,7 @@ p {
 
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.7);
 }
-
+/* 
 .container {
   max-width: 700px;
   width: 100%;
@@ -1564,7 +1564,7 @@ p {
 
   background-position: center;
 
-}
+} */
 
 .title {
 
@@ -1854,7 +1854,7 @@ form .button input:hover {
 
 
 
-  background-image: linear-gradient(181deg, rgba(225, 109, 245, 1) 6.9%, rgba(78, 248, 231, 1) 112.8%);
+  background-image: linear-gradient(181deg, rgb(57, 36, 154) 6.9%, rgb(33, 96, 136) 112.8%);
 }
 
 .special-labs img {
@@ -1864,7 +1864,7 @@ form .button input:hover {
 }
 
 .special-labs img:hover {
-  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px 0px rgba(8, 59, 108, 0.7);
   cursor: pointer;
 }
 
@@ -1880,7 +1880,7 @@ form .button input:hover {
 }
 
 .special-labs:hover {
-  background: rgb(136, 4, 136);
+  background: rgb(24, 8, 107);
   color: white;
 }
 
