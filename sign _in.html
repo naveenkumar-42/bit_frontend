@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Sign up and login form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body> 
+
+  <div class="container">
+    <div class="backbox">
+      <div class="loginMsg">
+        <div class="textcontent">
+          <p class="title">Don't have an account?</p>
+          <p>Sign up to save all your graph.</p>
+          <button id="switch1">Sign Up</button>
+        </div>
+      </div>
+      <div class="signupMsg visibility">
+        <div class="textcontent">
+          <p class="title">Have an account?</p>
+          <p>Log in to see all your collection.</p>
+          <button id="switch2" >LOG IN</button>
+        </div>
+      </div>
+    </div>
+    <!-- backbox -->
+
+    <div class="frontbox">
+      <div class="login">
+        <h2>LOG IN</h2>
+        <div class="inputbox">
+          <input type="text" name="email" placeholder="  EMAIL">
+          <input type="password" name="password" placeholder="  PASSWORD">
+        </div>
+        <p>FORGET PASSWORD?</p>
+        <button><a href="index.html">LOG IN</a></button>
+      </div>
+
+      <div class="signup hide">
+        <h2>SIGN UP</h2>
+        <div class="inputbox">
+          <input type="text" name="fullname" placeholder="  FULLNAME">
+          <input type="text" name="email" placeholder="  EMAIL">
+          <input type="password" name="password" placeholder="  PASSWORD">
+        </div>
+        <button><a id="switch1">SIGN UP</a></button>
+      </div>
+
+    </div>
+    <!-- frontbox -->
+  </div>
+</body>
+
+<style>
+ :root {
+  --color-white: #fff;
+  --color-light: #e8d1d1;
+  --color-black: #000;
+  --color-bg: #1f2641;
+  --color-bg1: #2e3267;
+  --color-bg2: #424890;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+}
+
+.backbox {
+  background-color: var(--color-bg2);
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 50%;
+  display: inline-flex;
+}
+
+.frontbox {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  height: 100%;
+  width: 50%;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  margin-right: 3%;
+  margin-left: 3%;
+  transition: right .8s ease-in-out;
+}
+
+.moving {
+  right: 45%;
+}
+
+.loginMsg,
+.signupMsg {
+  width: 50%;
+  height: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.loginMsg .title,
+.signupMsg .title {
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.loginMsg p,
+.signupMsg p {
+  font-weight: 100;
+}
+
+.textcontent {
+  color: var(--color-white);
+  margin-top: 65px;
+  margin-left: 12%;
+}
+
+.loginMsg button,
+.signupMsg button {
+  background-color: var(--color-bg2);
+  border: 2px solid var(--color-white);
+  border-radius: 10px;
+  color: var(--color-white);
+  font-size: 12px;
+  box-sizing: content-box;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.login, .signup {
+  padding: 20px;
+  text-align: center;
+}
+
+.login h2,
+.signup h2 {
+  color: var(--color-bg2);
+  font-size: 22px;
+}
+
+.inputbox {
+  margin-top: 30px;
+}
+
+.login input,
+.signup input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #A8A8A8;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.login button,
+.signup button {
+  background-color: var(--color-bg2);
+  border: none;
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 300;
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.login p {
+  cursor: pointer;
+  color: var(--color-bg2);
+  font-size: 15px;
+}
+
+.loginMsg,
+.signupMsg {
+  /*opacity: 1;*/
+  transition: opacity .8s ease-in-out;
+}
+
+.visibility {
+  opacity: 0;
+}
+
+.hide {
+  display: none;
+}
+
+</style>
+<script>
+  var $loginMsg = $('.loginMsg'),
+  $login = $('.login'),
+  $signupMsg = $('.signupMsg'),
+  $signup = $('.signup'),
+  $frontbox = $('.frontbox');
+
+$('#switch1').on('click', function() {
+  $loginMsg.toggleClass("visibility");
+  $frontbox.addClass("moving");
+  $signupMsg.toggleClass("visibility");
+
+  $signup.toggleClass('hide');
+  $login.toggleClass('hide');
+})
+
+$('#switch2').on('click', function() {
+  $loginMsg.toggleClass("visibility");
+  $frontbox.removeClass("moving");
+  $signupMsg.toggleClass("visibility");
+
+  $signup.toggleClass('hide');
+  $login.toggleClass('hide');
+})
+
+setTimeout(function(){
+  $('#switch1').click()
+},1000)
+
+setTimeout(function(){
+  $('#switch2').click()
+},3000)
+</script>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

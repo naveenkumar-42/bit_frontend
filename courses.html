@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+       BIT 
+    </title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="stylesheet" href="./css/about.css" >
+    <link rel="stylesheet" href="./css/courses.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <h4>BIT</h4>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="chatbot.html">Chat Bot</a></li>
+                <li><a href="courses.html">Academics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+            
+        </div>
+    </nav>
+
+
+
+
+    
+        <section class="dis_head">
+            <div class="container header__container">
+                <div class="header__left">
+            <h1>DISCOURSE FORUM</h1>
+            <P>For more FAQ'S click above to enter the discourse forum</p>
+            <a target="_blank"  href="https://discourse.bitsathy.ac.in/" class="btn btn-primary" >click me</a>
+                </div>
+                <div class="header__right">
+                    <div class="header__right-image"></div>
+                 <img src="./images/header.svg" alt="header-img">
+                </div>
+            </div>   
+         </section>
+         
+         <body>
+            <section class="container testimonils__container swiper mySwiper">
+              <h2 class="outer-box">
+                OUR FACULTIES
+              </h2> 
+              <div class="swiper-container" id="testimonialSlider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <article class="testimonial">
+                      <div class="avatar">
+                        <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/dr-palanisamy-c/#information-technology">
+                          <img src="./images/Principal-dep.jpg" alt="Dr Palanisamy C">
+                        </a>
+                      </div>
+                      <div class="testimonial__info">
+                        <h5>Dr Palanisamy C</h5>
+                        <small id="palanisamy-email" class="email">cpalanisamy@bitsathy.ac.in</small>
+                        <a onclick="copyEmail('palanisamy-email')"><i class="uil uil-copy"></i></a>
+                      </div>
+                      <div class="testimonial__body">
+                        <p>Professor</p>
+                      </div>
+                    </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial ">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/bharathi-a/#information-technology">
+                        <img src="./images/Dr-Bharathi-A.png" alt="Dr Bharathi A">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Bharathi A</h5>
+                      <small id="bharathi-email" class="email">bharathia@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('bharathi-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Professor</p>
+                    </div>
+                  </article>
+                  </div>
+
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/thanga-parvathi-b/#information-technology">
+                        <img src="./images/Dr-Thanga-Parvathi-B.jpg" alt="Dr Thanga Parvathi B">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Thanga Parvathi B</h5>
+                      <small id="thangaparvathi-email" class="email">thangaparvathi74@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('thangaparvathi-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Professor</p>
+                    </div>
+                  </article>
+                </div>
+
+
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/sundara-murthy-s/#information-technology">
+                        <img src="./images/Dr-Sundara-Murthy-S.png" alt="Dr Sundara Murthy S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Sundara Murthy S</h5>
+                      <small id="sundaramurthy-email" class="email">sundaramurthys@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('sundaramurthy-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Professor</p>
+                    </div>
+                  </article>
+                  </div>
+
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/gopalakrishnan-b/#information-technology">
+                        <img src="./images/Dr-Gopalakrishnan-B.jpg" alt="Dr Gopalakrishnan B">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Gopalakrishnan B</h5>
+                      <small id="gopalakrishnan-email" class="email">gopalakrishnanb@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('gopalakrishnan-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Professor</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/paarivallal-ra/#information-technology">
+                        <img src="./images/Dr-Paarivallal-Ra..png" alt="Dr Paarivallal Ra">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Paarivallal Ra</h5>
+                      <small id="Paarivallal-email" class="email">parivallalr@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Paarivallal-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Associate Professor</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/purusothaman-p/#information-technology">
+                        <img src="./images/Dr-Purusothaman-P.jpg" alt="Dr Purusothaman P">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Purusothaman P</h5>
+                      <small id="Purusothaman-email" class="email">purusothaman@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Purusothaman-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Associate Professor</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/lakshmanaprakash-s/#information-technology">
+                        <img src="./images/Dr-Lakshmanaprakash-S.jpg" alt="Dr Lakshmanaprakash S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Lakshmanaprakash S</h5>
+                      <small id="Lakshmanaprakash-email" class="email">lakshmanaprakashs@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Lakshmanaprakash-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Associate Professor</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/sri-vigna-hema-v/#information-technology">
+                        <img src="./images/SRI-VIGNA-HEMA-V.jpg" alt="Dr Sri Vigna Hema V">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Dr Sri Vigna Hema V</h5>
+                      <small id="Sri Vigna -email" class="email">srivignahemav@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Sri Vigna -email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Associate Professor</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/naveena-s/#information-technology">
+                        <img src="./images/Mrs-Naveena-S.png" alt="Prof. Naveena S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Naveena S</h5>
+                      <small id="naveena-email" class="email">naveena@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('naveena-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level III</p>
+                    </div>
+                  </article>
+                  </div>
+
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/purusothaman-p/#information-technology">
+                        <img src="./images/Mr-Arun-Kumar-R.png" alt="Prof. Arun Kumar R">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Arun Kumar R</h5>
+                      <small id="arunkumar-email" class="email">arunkumarr@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('arunkumar-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level III</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/abirami-a/#information-technology">
+                        <img src="./images/Mrs-Abirami-A.jpg" alt="Prof. Abirami A">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Abirami A</h5>
+                      <small id="abirami-email" class="email">abiramia@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('abirami-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level III</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/sabarmathi-k-r/#information-technology">
+                        <img src="./images/Ms-Sabarmathi-K-R.png" alt="Prof. Sabarmathi K R">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Sabarmathi K R</h5>
+                      <small id="sabarmathi-email" class="email">sabarmathi@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('sabarmathi-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/prabhu-p-s-2/#information-technology">
+                        <img src="./images/Mr-Prabhu-P-S.jpg" alt="Prof. Prabhu P S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Prabhu P S</h5>
+                      <small id="prabhup-email" class="email">prabhups@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('prabhup-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/leelavathi-r/#information-technology">
+                        <img src="./images/Mrs-Leelavathi-R.png" alt="Prof. Leelavathi R">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Leelavathi R</h5>
+                      <small id="Leelavathi-email" class="email">leelavathi@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Leelavathi-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/nataraj-n/#information-technology">
+                        <img src="./images/Mr-Nataraj-N.png" alt="Prof. Nataraj N">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Nataraj N</h5>
+                      <small id="nataraj-email" class="email">nataraj@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('nataraj-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+  
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/ms-sri-vinitha-v/#information-technology">
+                        <img src="./images/Ms-Sri-Vinitha-V.png" alt="Prof. Sri Vinitha V">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Sri Vinitha V</h5>
+                      <small id="Sri Vinitha-email" class="email">srivinitha@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Sri Vinitha-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/vinoth-m/#information-technology">
+                        <img src="./images/Mr-Vinoth-M.png" alt="Prof. Vinoth M">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Vinoth M</h5>
+                      <small id="Vinoth-email" class="email">vinothm@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Vinoth-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/kalaivani-r/#information-technology">
+                        <img src="./images/Mrs-Kalaivani-R.jpg" alt="Prof. Kalaivani R">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Kalaivani R</h5>
+                      <small id="Kalaivani-email" class="email">kalaivani@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Kalaivani-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/yamuna-s/#information-technology">
+                        <img src="./images/Mrs-Yamuna-S.jpg" alt="Prof. Yamuna S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Yamuna S</h5>
+                      <small id="Yamuna-email" class="email">yamunas@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Yamuna-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/priya-l/#information-technology">
+                        <img src="./images/Mrs-Priya-L.jpg" alt="Prof. Priya L">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Priya L</h5>
+                      <small id="priya-email" class="email">priyal@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('priya-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                </div>
+                  
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/venkatesan-r/#information-technology">
+                        <img src="./images/Mr-Venkatesan-R.jpg" alt="Prof. Venkatesan R">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Venkatesan R</h5>
+                      <small id="Venkatesan-email" class="email">venkatesanr@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Venkatesan-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                </div>
+                  
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/selvakumar-m/#information-technology">
+                        <img src="./images/Mr-Selvakumar-M.jpg" alt="Prof. Selvakumar M">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Selvakumar M</h5>
+                      <small id="selvakumar-email" class="email">selvakumarm@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('selvakumar-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor Level II</p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/karthika-m-s/#information-technology">
+                        <img src="./images/Mrs-Karthika-M-S.png" alt="Prof. Karthika M S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Karthika M S</h5>
+                      <small id="karthika-email" class="email">karthikams@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('karthika-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor</p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/deepika-r/#information-technology">
+                        <img src="./images/Mrs-Deepika-R.png" alt="Prof. Deepika R">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Deepika R</h5>
+                      <small id="deepika-email" class="email">deepikar@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('deepika-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor</p>
+                    </div>
+                  </article>
+                </div>
+                  
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/janani-t/#information-technology">
+                        <img src="./images/Mrs-Janani-T.png" alt="Prof. Janani T">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Janani T</h5>
+                      <small id="janani-email" class="email">jananit@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('janani-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor</p>
+                    </div>
+                  </article>
+                </div>
+                  
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/santhiya-b/#information-technology">
+                        <img src="./images/Mrs-Santhiya-B.jpg" alt="Prof. Santhiya B">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Santhiya B</h5>
+                      <small id="Santhiya-email" class="email">santhiyab@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Santhiya-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor</p>
+                    </div>
+                  </article>
+                </div>
+                  
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/renuga-devi-s/#information-technology">
+                        <img src="./images/Renuga-Devi-S.jpg" alt="Prof. Renuga Devi S">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Renuga Devi S</h5>
+                      <small id="Renuga Devi-email" class="email">renugadevi@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('Renuga Devi-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor</p>
+                    </div>
+                  </article>
+                </div>
+                  
+                <div class="swiper-slide">
+                  <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                      <a target="_blank" href="https://www.bitsathy.ac.in/departments/faculty/gayathri-k-2/#information-technology">
+                        <img src="./images/Prof.-Gayathri-K.jpg" alt="Prof. Gayathri K">
+                      </a>
+                    </div>
+                    <div class="testimonial__info">
+                      <h5>Prof. Gayathri K</h5>
+                      <small id="gayathri-email" class="email">gayathrik@bitsathy.ac.in</small>
+                      <a onclick="copyEmail('gayathri-email')"><i class="uil uil-copy"></i></a>
+                    </div>
+                    <div class="testimonial__body">
+                      <p>Assistant Professor</p>
+                    </div>
+                  </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="courses">
+        <h2 class="outer-box">OUR POPULAR COURSES</h2>
+        <div class="search">
+            <div class="search-bar">
+                <input type="text" id="course-search" placeholder="Search for courses...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+        <!===================================math=================================>
+           <h3 class="head">ENGINEERING MATHEMATICS II
+               22MA201</h3><br>
+            <div class="container courses__container">
+                <article class="course">
+                    <div class="course__image">
+                        <img src="./images/newton.jpeg">
+                    </div>  
+                    <h4> Newton's Law of Cooling Calculus </h4>  
+                    <a target="_blank" href="https://drive.google.com/file/d/1dla8McGUF-IkBMl8WCQ-4fRH5tgRHYK8/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/falling object.jpg">
+                    </div>   
+                    <h4> Falling objetcs
+                    </h4>  
+                     
+                     <a target="_blank" href="https://drive.google.com/file/d/1I_crN8DqDo0RnV1VxDy7zbUbpxCg-1p_/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/Taylor's and Maclaurin Series.jpg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> ETaylor Series and Maclaurin Series
+                    </h4>   
+                     <a target="_blank" href="https://drive.google.com/file/d/1bgsZ4XretuY_Iy8gatY5Bnof2GpGCJ9F/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/root_test.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Radio Test and Root Test
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1DwWyohPrzxXZb6RLZA3R7WNYYQA_C8Jq/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+            </div><br>
+            <! =======================cps====================>
+            <h3 class="head">Computational Problem Solving
+                22GE002</h3><br>
+                <div class="container courses__container">
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/Einstein.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>  Einstein problem solving
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/12NNjP0sQKB1WhVWnDDZWP7ZONkg-hD93/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/queue.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>  Queue
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1B95V02au4YmBw8hCyQb8w6fhOvNdl1sE/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/abstract.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>  Abstract data type
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1AL-SxkNFzCsPwRDBHGjVYFqL4RhYY7Yz/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/array.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>  Array
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1qjWN4021F85mBmQywCjs5rEfUJoojtMm/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+                </div><br>
+                <!===================================digital=================================>
+            <h3 class="head">DIGITAL COMPUTER ELECTRONIC
+                22IT206</h3><br>
+                <div class="container courses__container">
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/alu.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Binary Arithmetic, ALU Design 
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1FyVS-3lg7FV9cQXpkOyO-ZUxWdblv2rQ/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/flipflop.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Latches ,Flip Flops, Clock
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1WrCGGbK6W0HohXMmscsbh7jO-K8Rl1_u/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/counter.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Register and Counters
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1phenXPC65ceoyyekPuuitLTlKgASG0tW/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/multiplxer.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Multiplexer and Demultiplexer 
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1oXIlDz33htp9F4qY2vs47MVLyuobc0Lz/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+                </div><br>
+                <!===================================physics=================================>
+            <h3 class="head">ELECTROMAGNETISM AND MODERN PHYSICS
+                22PH2026</h3><br>
+                <div class="container courses__container"> 
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/magnetism.jpg">
+                    </div>   
+                    <h4>Magnetism 
+                    </h4> 
+                     <a target="_blank" href="https://drive.google.com/file/d/1-mNhLzYwydamNxy-vW9XYwRtEyIet-oJ/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/electromagnet.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> Electromagnetic Induction
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1-mNhLzYwydamNxy-vW9XYwRtEyIet-oJ/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/least time.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> principle of least time and optics
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1rKONz5G6lepNAlAQzB6M0UYQhfxCBb3U/view?usp=drive_link" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/relativity.jpeg">
+                    </div>   
+                    <h4>Theory Of Relativity
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1D8464_WvlGWynnVdHnq2TKG1u3r92uJa/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+                </div><br>
+
+                <!===================================electrical=================================>
+                <h3 class="head">BASICS OF ELECTRICAL ENGINEERING
+                    22GE003 </h3><br>
+                <div class="container courses__container">     
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img"  src="./images/magnetic_feild.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> Magnetic Feild
+                    </h4>  
+                      
+                     <a target="_blank" href="https://drive.google.com/file/d/1v0HxHdd47I7ncSD5bk96guSiaACkLDS8/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+                
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/uniform magnetic field.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> Force on Moving Charge In a Uniform Magnetic Field
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1RDpkGYslBVa_ooOjKcOrFbodVmNZRQve/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/infinite plane sheet.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> Electric Field in uniform straight conductor , infinite plane sheet
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1a_tonogZ3ZN2heQ_1YI_OotDzDSFjpUq/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/force between multiple charges.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> The Conservation of charge ,force between multiple charges
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1SU4aK656KTsp6c0vZqfs9QDkJUg6B04i/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+                </div>
+
+            <h3 class="head">ENGINEERING CHEMISTRY II
+                2CH203 </h3><br>
+                <div class="container courses__container">     
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/uniform magnetic field.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Elector chemistry
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1DpD6efIem0ikFbnBaig8gqnjxr7zDSV0/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/energy storing.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4>Basics and terminology in energy storing devices
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1JaqkwNcBg-qbiaZI8_MGeqMCN6RpW8eq/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/corrosion.jpeg">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> Corrosion
+                    </h4>  
+                     <a target="_blank" href="hhttps://drive.google.com/file/d/1TGnOQTUoOpLev3rjTeoxKvNoFeNnpp2e/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+                <article class="course">
+                    <div class="course__image">
+                        <img id="img" src="./images/homo and hetro.png">
+                    </div>   
+                    <div class="courses__info"></div> 
+                    <h4> Homogeneous and Hetrogeneous Catalysis
+                    </h4>  
+                     <a target="_blank" href="https://drive.google.com/file/d/1HN6VM7YTCIzQqTFqEy-NG_0IHc1IIiOY/view?usp=sharing" class="btn btn-primary" >Learnt More</a>
+                </article>
+
+
+
+
+
+
+                </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+          <div class="footer__1">
+            <img class="img_logo" src="./images/logo2.png" alt="Logo">
+        <h4>Alathukombai - Post,
+                Sathyamangalam - 638 401,
+                Erode District, Tamil Nadu, India.<br>
+                
+                +91 4295 226000<br>
+                +91 99429 21289<br>
+                stayahead@bitsathy.ac.in</h4>
+          </div>  
+      
+          <div class="footer__2">
+            <h4>Navigation</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="courses.html">COURSES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a target="_blank" href="https://www.bitsathy.ac.in/blog/">BLOG</a></li> 
+            </ul>
+          </div>
+          
+          <div class="footer__3">
+            <h4>Top links</h4>
+            <ul class="permalinks">
+              <li><a target="_blank" href="https://www.ugc.gov.in/">UGC</a></li>
+              <li><a target="_blank" href="https://www.aicte-india.org/">AICTE</a></li>
+              <li><a target="_blank" href="https://www.annauniv.edu/">ANNA UNIVERSITY</a></li>
+              <li><a target="_blank" href="https://dst.gov.in/">DST</a></li>
+              <li><a target="_blank" href="https://www.nbaind.org/">NBA</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer__4">
+            <h4>Contact Info</h4>
+            <p>+91 4295 226000
+                
++91 99429 21289</p>
+            <p>stayahead@bitsathy.ac.in</p>
+            <ul class="footer__socials">
+              <li>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100081126684139"><i class="uil uil-facebook"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com/i/flow/login"><i class="uil uil-twitter"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/naveenkumar.2327/"><i class="uil uil-instagram"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.youtube.com/"><i class="uil uil-youtube"></i></a> <!-- Added YouTube link -->
+              </li>
+            </ul>
+          </div>
+      
+        </div>
+        <div class="footer__copyright">
+          <small>&copy; All rights reserved.</small>
+        </div>
+      </footer>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/main.js"></script>
+
+ 
+</body>
+</html>

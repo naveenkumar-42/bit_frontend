@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIT</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/chatbot.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav>
+      <img
+        style="margin-left: 200px"
+        class="logo"
+        src="./images/Bannari_Amman_Institute_of_Technology_logo.png"
+      />
+      <div class="container nav__container">
+        <h4 style="margin-right: 80px">
+          BANNARI AMMAN INSTITUTE OF TECHNOLOGY
+        </h4>
+        <br />
+        <ul class="nav__menu">
+          <li><a style="margin-left: 300px" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="chatbot.html">Chat Bot</a></li>
+          <li><a href="courses.html">Academics</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <section class="msger">
+      <div class="msger-header-title">
+        <a href=""
+          ><i
+            class="fas fa-times"
+            style="right: 0; position: relative; display: block; float: right"
+          ></i
+        ></a>
+      </div>
+      <main class="msger-chat" id="chatContainer">
+        <div class="chat-container">
+          <div class="msg left-msg">
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="msg-info-name">BIT's Bot</div>
+                <div class="msg-info-time">00:00</div>
+              </div>
+              <div class="msg-text">
+                Hey, I am BIT's chatBot! You can ask me anything related to BIT
+                and I can help you with it! 😄
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <form class="msger-inputarea">
+        <input
+          type="text"
+          class="msger-input"
+          id="textInput"
+          placeholder="Type your message..."
+        />
+        <button type="submit" class="msger-send-btn" id="sendBtn">Send</button>
+        <button type="button" class="msger-send-btn" id="clearBtn">
+          Clear
+        </button>
+      </form>
+    </section>
+
+    <script></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/chatbot.js"></script>
+  </body>
+</html>
